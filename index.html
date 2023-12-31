@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restro</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Font Awesome Cdn -->
+</head>
+<body>
+    
+    <!-- Header Start -->
+    <div class="header">
+        <nav>
+            <input type="checkbox" id="show-search">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <div class="content">
+                <div class="logo"><a href="index.html">Delight<span>Restro</span></a></div>
+                <ul class="links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <!-- <li><a href="#menu">Menu</a></li> -->
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#order">Order</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                </ul>
+            </div>
+            <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+            <form action="#" class="search-box">
+                <input type="text" placeholder="Searching......." required>
+                <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+            </form>
+        </nav>
+    </div>
+    <!-- Header End -->
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h2>Welcome To <span> Delight Restaurant</span></h2>
+            <h4>Come with family & Enjoy the mouthwatering Food</h4>
+            <button id="btn">Order Now</button>
+        </div>
+        <div class="img">
+            <img src="./gallery/chicken biriyani.avif" alt="">
+        </div>
+    </section>
+    <!-- Home Section End -->
+    <!-- Top Card Start -->
+    <section class="top-cards">
+        <div class="top-cards-content">
+            <div class="row">
+                <img src="./gallery/noodles.avif" alt="">
+                <div class="layer">
+                    <h3>Noodles</h3>
+                    <p>Stirring up memories with every noodle bite</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./gallery/item2.avif" alt="">
+                <div class="layer">
+                    <h3>Veg Thali</h3>
+                    <p>Tradition meets taste in this mouthwatering veg thali.</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./gallery/item3.avif" alt="">
+                <div class="layer">
+                    <h3>Shawarma</h3>
+                    <p>Experience a flavor explosion in every shawarma bite. </p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./gallery/item4.avif" alt="">
+                <div class="layer">
+                    <h3>Baked Chicken</h3>
+                    <p>When comfort food meets healthy eating, it's baked chicken time! </p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Top Card End -->
+    <!-- Dishes Section Start -->
+    <section class="menu" id="menu">
+        <div class="main-text">
+            <h3>Menu</h3>
+        </div>
+        <div class="card-content">
+            <div class="row">
+                <img src="./gallery/burger.avif" alt="">
+                <div class="card-body">
+                    <h3>Burger</h3>
+                    <div class="rating">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    <div class="price">Price <strong>Rs 100</strong></div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./gallery/item2.avif" alt="">
+                <div class="card-body">
+                    <h3>Veg Thali</h3>
+                    <div class="rating">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    
+                    <div class="price">Price <strong>Rs.200</strong></div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./gallery/item3.avif" alt="">
+                <div class="card-body">
+                    <h3>Shawarma</h3>
+                    <div class="rating">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    
+                    <div class="price">Price <strong>Rs.100</strong></div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            
+            <div class="row">
+                <img src="./gallery/Ghee Roast.avif" alt="">
+                <div class="card-body">
+                    <h3>Ghee Roast</h3>
+                    <div class="rating">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    
+                    <div class="price">Price <strong>Rs.120</strong></div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./gallery/noodles.avif" alt="">
+                <div class="card-body">
+                    <h3>Noodles</h3>
+                    <div class="rating">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    
+                    <div class="price">Price <strong>Rs.120</strong></div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./gallery/idli.jpg" alt="">
+                <div class="card-body">
+                    <h3>Idli</h3>
+                    <div class="rating">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    
+                    <div class="price">Price <strong>Rs.60</strong></div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+           
+            
+            <div class="row">
+                <img src="./gallery/masala-dosa.jpg" alt="">
+                <div class="card-body">
+                    <h3>Masala Dosa</h3>
+                    <div class="rating">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    
+                    
+                    <div class="price">Price <strong>Rs.100</strong></div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./gallery/gobimanchurian.jpg" alt="">
+                <div class="card-body">
+                    <h3>Gobi Manchurian</h3>
+                    <div class="rating">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                   
+                    <div class="price">Price <strong>Rs.60</strong></div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./gallery/masalapasta.jpg" alt="">
+                <div class="card-body">
+                    <h3>Masala Pasta</h3>
+                    <div class="rating">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                   
+                    <div class="price">Price <strong>Rs.70</strong></div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./gallery/upmarecipe.jpg" alt="">
+                <div class="card-body">
+                    <h3>Upma</h3>
+                    <div class="rating">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                   
+                    <div class="price">Price <strong>Rs.50</strong></div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./gallery/paneerbutter.avif" alt="">
+                <div class="card-body">
+                    <h3>Paneer Butter</h3>
+                    <div class="rating">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                   
+                    <div class="price">Price <strong>Rs.60</strong></div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./gallery/tomatorice.jpg" alt="">
+                <div class="card-body">
+                    <h3>Tomato Rice</h3>
+                    <div class="rating">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                   
+                    <div class="price">Price <strong>Rs.100</strong></div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./gallery/chicken biriyani.avif" alt="">
+                <div class="card-body">
+                    <h3>Chicken Biriyani</h3>
+                    <div class="rating">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                   
+                    <div class="price">Price <strong>Rs.100</strong></div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./gallery/bakedchicken.avif" alt="">
+                <div class="card-body">
+                    <h3>Baked Chicken</h3>
+                    <div class="rating">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                   
+                    <div class="price">Price <strong>Rs.80</strong></div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./gallery/friedrice1.avif" alt="">
+                <div class="card-body">
+                    <h3>Fried Rice</h3>
+                    <div class="rating">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    
+                    <div class="price">Price <strong>Rs.120</strong></div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Dishes Section End -->
+    
+ <!-- Section Menu Start -->
+ <!-- <h3 id="menu-text">Our <span>Menu</span></h3>
+ <section class="menu" id="menu">
+    <div class="menu-content">
+        <div class="img-content">
+            <img src="./gallery/bakedchicken.avif" alt="">
+            <h3> Baked Chicken</h3>
+        </div>
+        <div class="img-content">
+            <img src="./gallery/chicken biriyani.avif" alt="">
+            <h3>Chicken Biriyani</h3>
+        </div>
+        <div class="img-content">
+            <img src="./gallery/tomatorice.jpg" alt="">
+            <h3>Tomato Rice</h3>
+        </div>
+    </div>
+    <div class="menu-img">
+        <img src="./gallery/sadhya.avif" alt="">
+       
+    </div>
+    <div class="menu-content">
+        <div class="img-content">
+            <img src="./gallery/paneerbutter.avif" alt="">
+            <h3>Paneer Butter</h3>
+        </div>
+        <div class="img-content">
+            <img src="./gallery/upmarecipe.jpg" alt="">
+            <h3>Upma</h3>
+        </div>
+        <div class="img-content">
+            <img src="./gallery/masalapasta.jpg" alt="">
+            <h3>Masala Pasta</h3>
+        </div>
+    </div>
+ </section> -->
+ <!-- Section Menu End -->
+<!-- About Section Start -->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="./gallery/backgroundimg.jpg" alt="">
+    </div>
+    <div class="about-text">
+        <h3>About our Restro...</h3>
+        <p>At Delight Retro, our culinary journey began with a simple yet unwavering belief: that food has the power to bring people together, create unforgettable memories, and ignite the senses. Nestled in the heart of Palakkad, we've cultivated a haven where passion for exquisite cuisine meets warm, welcoming hospitality. With every dish we create, we strive to tell a story one that celebrates the vibrant flavors of our region while embracing global influences. Our dedicated team of chefs and staff pour their hearts into every plate, ensuring that each bite is a symphony of flavors, textures, and aromas. Whether you're a seasoned foodie or a curious epicurean, we invite you to join us on a culinary adventure that transcends mere dining; it's an experience that will leave you savoring each moment long after you've left our tables. Welcome to Delight Restro, where every meal is a celebration of taste, culture, and togetherness
+
+        </p>
+        
+        
+    </div>
+</section>
+<!-- About Section End -->
+<!-- Order Section Start -->
+<section class="order" id="order">
+    <div class="order-text">
+        <h2>Let's <span>Order Now</span></h2>
+        <p>Your gateway to culinary delight at your fingertips. Here, you can explore our enticing menu and place your order with ease. Whether you're craving our signature dishes, looking to satisfy a late-night craving, or planning a special meal, our user-friendly ordering platform ensures a seamless experience. Just a few clicks stand between you and a delectable dining experience brought right to your doorstep. Join us on this flavorful journey, and let us transform your cravings into an unforgettable dining experience. Order now and savor the convenience of exceptional cuisine at your convenience.</p>
+        <div class="list">
+            <li><a href="#">7542906541</a></li>
+            <li><a href="#">Delight@gmail.com</a></li>
+            <li><a href="#">Palakkad</a></li>
+            <div class="service">
+                <a href="#">Free Delivery</a>
+                <a href="#"> Free Payment</a>
+                <a href="#">24 Hours Services</a>
+            </div>
+        </div>
+    </div>
+    <div class="order-form">
+        <form action="#">
+            <input type="text" placeholder="Name...." required>
+            <input type="number" placeholder="Phone Number......" required>
+            <input type="text" placeholder=" Order...." required>
+            <input type="text" placeholder="How Much...." required>
+            <textarea name="" id="" cols="35" rows="10" placeholder="Address" required></textarea>
+            <input type="submit" value="Order Now" class="submit" required>
+        </form>
+    </div>
+    
+</section>
+<!-- Order Section End -->
+<!-- Resviews Start -->
+<div class="reviews" id="reviews">
+    <div class="main-text">
+        <h3>Reviews</h3>
+    </div>
+    <div class="review-content">
+        <div class="box">
+            <div class="img">
+                <img src="./gallery/pic1.avif" alt="">
+            </div>
+            <h3>Mason</h3>
+            <div class="rating">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+            </div>
+            <p>Sadhya was a delightful journey of Kerala's flavors. Each dish on the banana leaf was a treat for the palate, and the payasam was pure bliss.</p>
+        </div>
+        <div class="box">
+            <div class="img">
+                <img src="./gallery/pic2.avif" alt="">
+            </div>
+            <h3>Ethan</h3>
+            <div class="rating">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+            </div>
+            <p>The biryani here is a flavor explosion! Tender chicken, aromatic rice, and the perfect blend of spices. A true culinary masterpiece.</p>
+        </div>
+        <div class="box">
+            <div class="img">
+                <img src="./gallery/pic3.avif" alt="">
+            </div>
+            <h3>Liam</h3>
+            <div class="rating">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+            </div>
+            <p>This burger joint never disappoints. Their classic cheeseburger is the ultimate comfort food juicy patty, melty cheese, and a fluffy bun. Perfection!</p>
+        </div>
+    </div>
+</div>
+<!-- Reviews End -->
+<!-- Footer Start -->
+<footer id="footer">
+    <div class="footer-content">
+        <div class="logo">
+            <h3>Delight<span>Restro</span></h3>
+        </div>
+        <p>
+        <div class="socail-links">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+        </div>
+    </div>
+    <hr>
+    <div class="footer-bottom-content">
+        <p>Prepared By <a href="#">Almas</a></p>
+        <div class="copyright">
+            <p>&copy;2023 Copyright <strong>Almas</strong> .All Rights Reserved</p>
+        </div>
+    </div>
+</footer>
+<!-- Footer End -->
+<a href="#" class="arrow"><i><img src="./images/up-arrow.png" alt="" width="50px"></i></a>
+</body>
+</html>
