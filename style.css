@@ -262,7 +262,7 @@ nav .content .links{
 }
 
 /* Top Cards End */
-/* Dishes Section Start */
+/* Menu Section Start */
 .menu{
     padding: 100px 8% 30px;
     margin-top: -30px;
@@ -345,54 +345,7 @@ nav .content .links{
     width: 150px;
 }
 
-/* Dishes Section End */
-/* Section Menu Start */
-/* #menu-text{
-    background: rgb(51, 47, 47);
-    text-align: center;
-    font-size: 40px;
-    font-weight: 600;
-    height:100px;
-    padding: 20px;
-    color: rgb(233, 225, 225);
-    text-shadow: 0px 1px 1px black;
-    margin-top: -10px;
-}
-#menu-text span{
-    color: rgb(189, 147, 71);
-    text-shadow: 0px 1px 1px black;
-}
-.menu{
-   
-    padding: 100px 8% 120px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr );
-    align-items: center;
-    gap: 1.5rem;
-}
-.img-content{
-    text-align: center;
-    color: white;
-    margin-bottom: 20px;
-}
-
-.img-content img{
-    border-radius: 50px;
-    width: 150px;
-    height:150px;
-    
-}
-.menu-img{
-    display:flex;
-    margin-left: auto;
-    margin-right: auto;
-    width:90%;
-    height: 90%;
-    border-radius:100%;
-}
- */
-
-/* Section Menu End */
+/* Menu Section End */
 /* About Section Start */
 .about{
     background: rgb(51, 46, 46);
@@ -574,16 +527,5 @@ form textarea{
 
 /* Footer End */
 html{
-    scroll-behavior: smooth;
-}
-.arrow{
-    position: fixed;
-    background: rgb(184, 152, 94);
-    border-radius: 50px;
-    height: 50px;
-    bottom: 40px;
-    right: 50px;
-    text-decoration: none;
-    text-align: center;
-    line-height: 50px;
+    scroll-behavior:smooth;
 }
